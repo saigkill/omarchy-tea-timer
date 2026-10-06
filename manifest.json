@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "saigkill.tea-timer",
+  "name": "Tea timer",
+  "version": "1.0.0",
+  "author": "Sascha Manns",
+  "description": "Tea brewing countdown (3-10 minutes) with a notification when the tea is ready",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Tea timer",
+    "description": "Cup icon in the bar that shows the remaining brewing time. Opens a panel to pick 3-10 minutes and start, pause or stop the countdown.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
