@@ -2,6 +2,8 @@
 
 Brewing countdown for the Omarchy shell bar.
 
+![picture](https://github.com/saigkill/omarchy-tea-timer/blob/master/preview.png?raw=true)
+
 - Cup icon in the bar; while a brew runs it shows the remaining time (`3:42`).
 - Click the icon to open the panel: pick **3–10 minutes**, then start, pause/resume or stop.
 - At 0 a critical notification "Your tea is ready" is sent and the bar shows "Ready!" until clicked.
